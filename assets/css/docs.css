@@ -13,6 +13,13 @@
 body {
   position: relative;
   padding-top: 40px;
+  background: #FFFFFF; /* Old browsers */
+  background: -moz-linear-gradient(90deg,  #FFFFFF 0%, #EDEDD6 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#FFFFFF), color-stop(100%,#EDEDD6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(90deg,  #FFFFFF 0%,#EDEDD6 0%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(90deg,  #FFFFFF 0%,#EDEDD6 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(90deg,  #FFFFFF 0%,#EDEDD6 100%); /* IE10+ */
+  background: linear-gradient(90deg,  #FFFFFF 0%,#EDEDD6 100%); /* W3C */
 }
 
 /* Code in headings */
@@ -94,12 +101,12 @@ hr.soften {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   background: #FFFFFF; /* Old browsers */
-  background: -moz-linear-gradient(90deg,  #FFFFFF 0%, #000000 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#FFFFFF), color-stop(100%,#000000)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(90deg,  #FFFFFF 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(90deg,  #FFFFFF 0%,#000000 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(90deg,  #FFFFFF 0%,#000000 100%); /* IE10+ */
-  background: linear-gradient(90deg,  #FFFFFF 0%,#000000 100%); /* W3C */
+  background: -moz-linear-gradient(0deg,  #FFFFFF 0%, #EDEDD6 0%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#FFFFFF), color-stop(0%,#EDEDD6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(0deg,  #FFFFFF 0%,#EDEDD6 0%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(0deg,  #FFFFFF 0%,#EDEDD6 0%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(0deg,  #FFFFFF 0%,#EDEDD6 0%); /* IE10+ */
+  background: linear-gradient(0deg,  #FFFFFF 0%,#EDEDD6 0%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
      -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
@@ -174,7 +181,7 @@ hr.soften {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
+  background: url(../img/parents/trama_parents+-01-01.bg_website.jpg) repeat center center;
   opacity: .4;
 }
 
@@ -183,7 +190,7 @@ hr.soften {
 .masthead {
   padding: 70px 0 80px;
   margin-bottom: 0;
-  color: #fff;
+  color: #332A2A;
 }
 .masthead h1 {
   font-size: 120px;
@@ -236,12 +243,14 @@ hr.soften {
 .subhead {
   text-align: left;
   border-bottom: 1px solid #ddd;
+  color: #332A2A;
 }
 .subhead h1 {
   font-size: 60px;
 }
 .subhead p {
   margin-bottom: 20px;
+  color: #332A2A;
 }
 .subhead .navbar {
   display: none;
@@ -560,7 +569,7 @@ h2 + .row {
 
 /* Echo out a label for the example */
 .bs-docs-example:after {
-  content: "Example";
+  content: "Ingresa datos especificados";
   position: absolute;
   top: -1px;
   left: -1px;
@@ -574,6 +583,8 @@ h2 + .row {
      -moz-border-radius: 4px 0 4px 0;
           border-radius: 4px 0 4px 0;
 }
+
+
 
 /* Remove spacing between an example and it's code */
 .bs-docs-example + .prettyprint {
